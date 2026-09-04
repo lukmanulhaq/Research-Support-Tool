@@ -1,14 +1,3 @@
-"""
-LitSynth AI — Main Streamlit Application
-Fully self-contained, deployable to Streamlit Community Cloud.
-
-Architecture:
-  - 5 Agents: Orchestrator, Router, Retriever, Synthesizer, Critic
-  - 3 Patterns: Orchestrator-Worker, ReAct/Tool-Use, Reflection/Self-Critique
-  - RAG: FAISS + all-MiniLM-L6-v2 + 22-paper JSON corpus
-  - A2A: Structured JSON messages via st.session_state
-  - UI:  Custom Streamlit component (frontend/index.html)
-"""
 import json
 import time
 from datetime import datetime
